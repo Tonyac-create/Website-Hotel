@@ -1,0 +1,46 @@
+@media (max-width: 500px) {
+}
+
+header {
+  flex-direction: column;
+}
+
+header h2 {
+  margin: 1rem auto;
+}
+
+header ul {
+  flex-direction: column;
+}
+
+header ul li {
+  margin-bottom: 0.5rem;
+}
+.rooms-content {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.rooms-content h3 {
+  margin-left: 1rem;
+}
+
+.rooms-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.restaurant {
+  flex-direction: column;
+}
+
+.restaurant-title {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.restaurant-explain {
+  margin: 0.5rem 0;
+}
